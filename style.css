@@ -1,0 +1,207 @@
+/*
+ Theme Name:   Service.com
+ Theme URI:    https://github.com/LocqusLLC/
+ Description:  Twenty Seventeen Child Theme
+ Author:       Bradford Wade
+ Author URI:   https://github.com/bradford281
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      Rights Reserved
+ License URI:  https://www.service.com;
+ Tags:         service.com, home repair, roofing, landscaping
+ Text Domain:  service-dot-com
+*/
+button:not(.search-submit){
+    display: block;
+    margin: 10px auto;
+    font-weight: normal;
+    border-radius: 4px;
+}
+
+#masthead{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0px 0px 2px #aaa;
+}
+#masthead a{
+    display: block;
+    float: left;
+    padding: 1.3em;
+}
+#masthead a#site-logo{
+    background: url('assets/images/logo.svg') no-repeat;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 286px;
+    padding: 0;
+    color: rgba(255, 255, 255, 0);
+}
+nav .text-links{
+    float: right;
+}
+nav .text-links a:hover{
+    background-color: #999;
+    color: #fff;
+}
+
+.request-quote{
+    color: #fff;
+    background-color: #ffa138;
+}
+
+main section#tagline h1,
+main section#tagline h2,
+main section#tagline a{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px 10px #555;
+}
+main section#tagline{
+    background: url('assets/images/tools.jpg') no-repeat;
+    background-size: cover;
+    padding: 17em 5em;
+    text-align: center;
+    color: #fff;
+    margin-top: 66px;
+}
+main section#tagline hgroup h1{
+    font-size: 4em;
+}
+main section#tagline hgroup h2{
+    font-size: 1em;
+}
+
+main section#tagline a{
+    text-decoration: underline;
+}
+main section#tagline a:hover{
+    text-decoration: none;
+}
+
+main section.copy{
+    max-width: 960px;
+    margin: auto;
+}
+main section.copy>article h1{
+    margin-top: 1em;
+}
+main section.copy>article p{
+    color: #999;
+    font-size: 1.2em;
+    max-width: 100em;
+    line-height: 2em;
+}
+
+main section.copy>article,
+main section.copy>div{
+    padding: 1em;
+    float: left;
+    width: 50%;
+}
+main section#request-a-quote img.icon{
+    width: 120px;
+    height: 120px;
+    margin: 23px;
+}
+
+
+main section.copy img{
+    margin: 5em 1em;
+}
+
+main section.graphic{
+    background-size: cover;
+    background-position: 30% 33%;
+    width: 100%;
+    height: 530px;
+    clear: both;
+}
+main section#blueprints{
+    background-image: url('assets/images/blueprints.jpg');
+}
+main section#contractor-with-woman{
+    background-image: url('assets/images/contractor-with-woman.jpg');
+}
+main section#painter{
+    background-image: url('assets/images/painter.jpg');
+}
+main section#home{
+    background-image: url('assets/images/home.jpg');
+    background-position: 30% 55%;
+}
+
+main section#satisfaction-guaranteed{
+    max-width: 960px;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+}
+main section#satisfaction-guaranteed>a{
+    color: #007dcb;
+}
+main section#satisfaction-guaranteed>a:hover{
+    color: #005dab;
+    text-decoration: underline;
+}
+main section#satisfaction-guaranteed article p{
+    color: #999;
+}
+main section#satisfaction-guaranteed article a{
+    color: #999;
+    text-decoration: underline;
+}
+main section#satisfaction-guaranteed article a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+
+footer,
+footer h2.widget-title{
+    background-color: #007dcb;
+    color: #fff;
+}
+@media screen and (max-width: 1106px){
+    #masthead{
+        position: static;
+    }
+    #masthead a#site-logo{
+        margin: 10px auto;
+    }
+    #masthead a{
+        display: block;
+        float: none;
+        text-align: center;
+        margin: auto;
+    }
+    #masthead a:not(:first-child){
+        border-top: 1px solid #aaa;
+    }
+    nav .text-links{
+        float: none;
+        clear: both;
+    }
+    main section#tagline{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 940px) {
+
+    main section#tagline{
+        margin-top: 0;
+        padding: 4em;
+    }
+    main section#tagline hgroup h1{
+        font-size: 2em;
+    }
+    main section.copy>div{
+        display: none;
+    }
+    main section.copy>article{
+        width: 100%;
+    }
+}
