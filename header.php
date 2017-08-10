@@ -7,7 +7,7 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package Service.com
- * @version 1.0
+ * @version 1.0.1
  */
 
 ?><!DOCTYPE html>
@@ -25,21 +25,28 @@
     <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>
 
     <header id="masthead" class="site-header" role="banner">
-        <nav>
-            <a id="site-logo" href="/"></a>
-            <div class="text-links">
-                <a href="/">Home</a>
-                <a href="/dashboard/search">Browse</a>
-                <a href="/dashboard/pro">For Pros</a>
-                <a href="/local/">Advice</a>
-                <a href="/local/g/Roofing-Contractors/">Roofing Advice</a>
-                <a href="/local/g/HVAC-Contractors/">HVAC Advice</a>
-                <a class="request-quote" href="/dashboard/">
-                    Get started
-                </a>
-            </div>
+        <nav role="navigation">
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+            <a id="desktop-site-logo" class="site-logo" href="/"></a>
+                <div class="text-links">
+                    <a href="/">Home</a>
+                    <a href="/dashboard/search">Browse</a>
+                    <a href="/dashboard/pro">For Pros</a>
+                    <a href="/local/">Advice</a>
+                    <a href="/local/g/Roofing-Contractors/">Roofing Advice</a>
+                    <a href="/local/g/HVAC-Contractors/">HVAC Advice</a>
+                    <a class="request-quote" href="/dashboard/start">
+                        Request Quote
+                    </a>
+                </div>
+            </ul>
+          </div>
         </nav>
-
     </header><!-- #masthead -->
 
     <?php

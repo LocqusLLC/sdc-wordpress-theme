@@ -1,3 +1,4 @@
+<a id="mobile-site-logo" class="site-logo" href="/"></a>
 <?php
 /**
  * The front page template file
@@ -7,13 +8,14 @@
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
  * @package Service.com
- * @version 1.0
+ * @version 1.0.1
  */
 
 get_header(); ?>
 
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
+
         <section id="tagline">
             <hgroup>
                 <h1>The General Contract&shy;ing Market&shy;place</h1>

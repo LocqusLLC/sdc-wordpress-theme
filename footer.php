@@ -7,7 +7,7 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package Service.com
- * @version 1.0
+ * @version 1.0.1
  */
 
 ?>
